@@ -1,0 +1,106 @@
+1>Answer:-
+
+Firstly i want to descous about SVM, SVM algorithms use a set of mathematicat function
+that are defined as the kernel.The kernel function is take data as input and transform
+it into the required form.Kernel function is introduce for sequence data, graph,text,
+images, as well as vectors.SVM algorithum use different types of kernel function like,
+
+<i>  Linear:- Linear kernel is less use as compair to rbf nad Gaussian kernel.This type 
+              of kernel is use for regression dataset.They provide less accuracy as 
+              compair to other.
+
+
+<ii> RBF(Radial basis function):- This is the most used type of kernel function, because
+     				  it has localized and finite response along the entire
+                                  x-axis.This is generally use in non-linear or complex dataset.
+
+<iii> Polynomial kernel:- Polynomial kernel is popularly used in image processing.
+      			  equation is: k(x,y)=(x.y +1)^d.
+
+2>Answer:- R-squared is a better to measure goodness of fit of model in regression as comapair
+           to RSS, because R-Squared is a statistical measure of fit that indicates how much variation
+           of a dependent variable is explained by the independent variables in a regression model.
+
+          -In investing, R-squared is generally explaind as the percentage of a fund or security's
+           movements that can be explained by movements in a benchmark index.
+
+          -An R-squared of 100% means that all movements of a security or dependent variable are 
+           are completely explained by movements in the index or independent variable.
+          -If R-squared values between 100-70% it means strogly correlated.When below 70% it means 
+           correlation going to break.
+
+3>Answer:-
+
+TSS:-The total sum of squares is tell us how much variation there is in the dependent variable.
+     Total sum of squares is a measure of how a data set varies around mean values.
+     equestion: y=Y-mean of Y
+
+ESS:-
+
+RSS:-The residual sum of squares tells you how much of the dependent variable’s variation your
+     model did not explain. It is the sum of the squared differences between the actual Y and 
+     the predicted Y.
+     equestion: 
+         
+
+4>Answer:- Gini index or Gini impurity measures the degree or probability of a particular variable 
+          being wrongly classified when it is randomly chosen.But what is actually meant by ‘impurity’? 
+          If all the elements belong to a single class, then it can be called pure.The degree of Gini index
+          varies between 0 and 1, where 0 denotes that all elements belong to a certain class or if there 
+          exists only one class, and 1 denotes that the elements are randomly distributed across various classes.
+          A Gini Index of 0.5 denotes equally distributed elements into some classes.
+         
+          Formula:   Gini=1-(p1,p2,p3,p4,p5..........pn)^2
+
+          where:p=is the probability of an object being classified to a particular class.
+
+5>Answer:- Decision trees are prone to overfitting, especially when a tree is particularly deep.
+           This is the disadvantage of the decision tree.
+
+6>Answer:- Ensemble methods is a machine learning technique that combines several base models in
+           order to produce one optimal predictive model.
+           Type of ensemble methods is,
+           i>Bagging  ii>Random Forest.
+
+7>Answer:- Bagging is a way to decrease the variance in the prediction by generating additional data
+           for training from dataset using combinations with repetitions to produce multipal sets of the 
+           original data. 
+
+           Boosting is an iterative technique which adjusts the weight of an observation based on the last
+           classification.
+
+8>Answer:- out-of-bag error is a method of measuring the prediction error of random forest.
+
+9>Answer:- Cross validation is a resampling procedure used to evaluate machine learning models on a limited 
+           data sample.
+           The procedure has a single parameter called k that refers to the number of groups that a given
+           data sample is to be split into. As such, the procedure is often called k-fold cross-validation.
+
+10>Answer:-In machine learning, hyperparameter tuning is the problem of choosing a set of optimal hyperparameters
+           for a learning algorithm.A hyperparameter is a parameter whose value is used to control the learning process.
+           Two simple strategies to tune the hyperparameters:
+           <i>GridSearchCV  <ii> RadomSearchCV
+
+11>Answer:-When the learning rate is too large, gradient descent can inadvertently increase rather than decrease the training error.
+           When the learning rate is too small, training is not only slower, but may become permanently stuck with a high training error.
+
+12>Answer:-Bias is the simplifying assumptions made by the model to make the target function easier to approximate.
+          -Variance is the amount that the estimate of the target function will change given different training data.
+          -Trade-off is tension between the error introduced by the bias and the variance.
+
+13>Answer:-Regularisation is a technique used to reduce the errors by fitting the function appropriately on the given training
+           data set and avoid overfitting.The commonly used regularisation techniques are,
+           L1 and L2.L1 called Lasso and L2 called Ridge.
+
+14>Answer:-Adaboost is more about 'voting weights' and Gradient boosting is more about 'adding gradient optimization'.
+           
+	Adaboost increases the accuracy by giving more weightage to the target which is misclassified by the model.
+	It increases the weights of the wrongly predicted instances and decreases the ones of the correctly predicted instances.
+
+	Gradient boosting calculates the gradient of the Loss Function with respect to the prediction. 
+	Gradient boosting increases the accuracy by minimizing the Loss Function (error which is difference of actual and predicted value)
+	and having this loss as target for the next iteration.
+
+15>Answer:-Logistic regression has traditionally been used to come up with a hyperplane that separates the feature space into classes.
+	   But if we suspect that the decision boundary is nonlinear we may get better results by attempting some nonlinear functional
+           forms for the logit function. 
